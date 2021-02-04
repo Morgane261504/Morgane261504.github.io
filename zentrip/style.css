@@ -1,0 +1,208 @@
+/*       CSS général        */
+
+section {
+    margin: 6%;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+  }
+  
+  /* focus et active ciblent un élément suite à action (clic, clavier...) */
+  input,
+  button:focus {
+    outline: none;
+  }
+  
+  input,
+  button:active {
+    outline: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* Section hero */
+  #container-hero {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #container-hero img {
+    height: 100%;
+    width: auto;
+  }
+  
+  #container-hero button {
+    height: 35px;
+    border: 1px solid;
+    border-radius: 3px;
+    background-color: white;
+    font-weight: 900;
+  }
+  
+  #container-hero .material-icons {
+    /*position et top : pour aligner icon et txt*/
+    position: relative;
+    top: 2px;
+    font-size: 16px;
+    margin-right: 2px;
+  }
+  
+  #search {
+    display: flex;
+  }
+  
+  #search input {
+    padding-left: 15px;
+    width: 90%;
+    height: 35px;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 3px 0px 0px 3px;
+  }
+  
+  #search button {
+    background-color: #ff9a00;
+    border: none;
+    border-radius: 0px 3px 3px 0px;
+  }
+  
+  #search button:active {
+    background-color: #ffb13b;
+  }
+  
+  #container-help {
+    display: inline-flex;
+    justify-content: space-evenly;
+  }
+  
+  #container-help img {
+    max-width: 23%;
+    margin: 20px 10px;
+    border: 1px solid whitesmoke;
+  }
+  
+  /* Section voyager */
+  #container-voyager {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .card-voyager {
+    margin: 20px 10px;
+  }
+  
+  .card-voyager img {
+    height: 130px;
+    width: 200px;
+    border-radius: 4px;
+  }
+  
+  .card-voyager a {
+    color: #ff9a00;
+  }
+  
+  /* Section populaire */
+  #container-populaire {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .card-populaire {
+    border: 1px solid whitesmoke;
+    margin: 20px 10px;
+  }
+  
+  .card-populaire img {
+    height: 130px;
+    width: 300px;
+    border-radius: 4px;
+  }
+  
+  .prix {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .prix button {
+    margin: 0px 8px;
+    height: 30px;
+    width: 100px;
+    background-color: #ff9a00;
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+  }
+  
+  .prix button:active {
+    background-color: #ffb13b;
+  }
+  
+  .prix img {
+    height: 40px;
+    width: 40px;
+    border-radius: 4px;
+    margin: 0px 8px;
+  }
+  
+  /* Section inscription */
+  #inscription {
+    display: flex;
+    padding: 30px 5px;
+    border: 1px solid whitesmoke;
+    align-items: center;
+  }
+  
+  #inscription img {
+    max-width: 18%;
+  }
+  
+  #inscription input {
+    margin: 0 8px;
+    max-width: 30%;
+    height: 20px;
+    border: 1px solid grey;
+    border-radius: 3px;
+  }
+  
+  #inscription button {
+    height: 24px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ff9a00;
+  }
+  
+  #inscription button:active {
+    background-color: #ffb13b;
+  }
+  
+  #texte-inscription {
+    width: 36%;
+    padding: 0px 20px;
+  }
+  
+  /* Section organisation */
+  #container-organisation {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .card-organisation {
+    width: 30%;
+    margin: 5px;
+    padding: 15px 0px;
+    font-weight: 700;
+    line-height: 60%;
+    border-bottom: 1px solid lightgrey;
+  }
+  
+  .card-organisation a,
+  span {
+    font-size: 0.8em;
+    color: #ff9a00;
+  }  
