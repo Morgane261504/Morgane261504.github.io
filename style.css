@@ -17,8 +17,8 @@ h1, h2, h3, h4 {
 }
 
 b{
-  background-color: #7e2fe126;
-  color: #7f34ee;
+  background-color: #c19277;
+  color: #663f3f;
   border-radius: 4px;
   padding: 0px 4px;
 }
@@ -56,14 +56,14 @@ input{
 }
 
 .btn-violet {
-  background-color: #7f34ee;
+  background-color:#663f3f;
   color: white;
 }
 
 .btn-white {
   background-color: white;
-  color: #7f34ee;
-  border: 1px solid #7f34ee;
+  color: #663f3f;
+  border: 1px solid #663f3f;
 }
 
 
@@ -88,7 +88,7 @@ input{
 }
 
 .card:hover h2 { 
-  color: #923BF4;
+  color: #663f3f;
 }
 
 .card-container{
