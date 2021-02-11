@@ -191,7 +191,8 @@ a{
   font-weight: 900;
 }
 
- .card{
-    padding: 80px;
-    width: 80%;
-    background: rgba(255, 255, 255, 0.7);}
+.card{
+  padding: 80px;
+  width: 80%;
+  background: rgba(255, 255, 255, 0.7);
+}
