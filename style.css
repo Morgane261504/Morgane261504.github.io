@@ -190,18 +190,17 @@ a{
 }
 
 @media (max-width: 640px) {
-   
   body{
-   background: #a20a0a;
-   background: linear-gradient(#a20a0a); }
+    background: #a20a0a;
+    background: linear-gradient(#a20a0a);
   }
-
+ 
   #navright{
-  display: flex;
+    display: flex;
   }
   .card{
-  padding: 80px;
-  width: 80%;
-  background:white;
+    padding: 80px;
+   width: 80%;
+   background:white;
   }
 }
