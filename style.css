@@ -112,12 +112,7 @@ a{
   text-align: center;
 }
 
-@media (max-width: 640px) {
-   
-  body{
-   background: #a20a0a;
-   background: linear-gradient(#a20a0a); }
-}
+
 
 
 
@@ -161,6 +156,8 @@ a{
   font-style: italic;
 }
 
+
+
 .navbar{
   display: flex;
   justify-content: space-between;
@@ -191,11 +188,19 @@ a{
   font-weight: 900;
 }
 
-#navright{
-  display: none;
-}
-.card{
+@media (max-width: 640px) {
+   
+  body{
+   background: #a20a0a;
+   background: linear-gradient(#a20a0a); }
+  }
+
+  #navright{
+  display: flex;
+  }
+  .card{
   padding: 80px;
   width: 80%;
   background: rgba(255, 255, 255, 0.7);
+  }
 }
