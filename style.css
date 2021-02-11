@@ -191,6 +191,9 @@ a{
   font-weight: 900;
 }
 
+#navright{
+  display: flex;
+}
 .card{
   padding: 80px;
   width: 80%;
