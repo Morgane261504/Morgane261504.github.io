@@ -83,8 +83,9 @@ a{
 
 /* Style Cartes */
 .card{
+  scroll-margin-top: 100px;
   margin: 20px auto;
-  padding: 60px;
+  padding: 30px;
   background-color: white;
   border-radius: 6px;
   box-shadow: 0 7px 10px rgba(0,0,0,.1);
